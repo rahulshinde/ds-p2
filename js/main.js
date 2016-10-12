@@ -1,76 +1,39 @@
+var w = window.innerWidth,
+    left_detector1 = w * 0.4;
+    left_detector2 = w * 0.2;
+
 $(document).ready(function () {
-    var offsetY = window.pageYOffset,
-        $body = $('body'),
-        $win = $(window),
-        $close = $('#close'),
-        $close2 = $('#close2'),
-        $open = $('#resume'),
-        $open2 = $('#artist_statement'),
-        $holder = $('.resume'),
-        $holder2 = $('.artist_statement');
-
-    // Close with 'esc' key
-    // $(document).keyup(function (e) {
-    //     if (e.keyCode == 27) $close.trigger('click');
-    // });
-
-
-    $open.click(function () {
-        offsetY = window.pageYOffset;
-        // Block scrolling
-        $body.css({
-            'position': 'fixed',
-            'z-index': '-1000000',
-            'top': -offsetY + 'px'
-        });
-        // Show popup
-        $holder.toggleClass('open');
-        $('#close').delay(500).fadeToggle();
-    });
-
-    $open2.click(function () {
-        offsetY = window.pageYOffset;
-        // Block scrolling
-        $body.css({
-            'position': 'fixed',
-            'z-index': '-1000000',
-            'top': -offsetY + 'px'
-        });
-        // Show popup
-        $holder2.toggleClass('open');
-        $('#close2').delay(500).fadeToggle();
-    });
-
-    $close.click(function () {
-        // Allow scrolling again
-        $body.css({
-            'position': 'static',
-        });
-        /**
-         * Remove the following scrollTop()'s if you want.
-         * just a UI tweak that the user would expect.
-         **/
-        // Make the page stay at the position it was at before the overlay
-        $win.scrollTop(offsetY);
-        // Reset the overlay scroll position to the top
-        // Hide popup
-        $holder.toggleClass('open');
-        $('#close').fadeToggle(0);
-    });
-
-    $close2.click(function () {
-        // Allow scrolling again
-        $body.css({
-            'position': 'static',
-        });
-        /**
-         * Remove the following scrollTop()'s if you want.
-         * just a UI tweak that the user would expect.
-         **/
-        // Make the page stay at the position it was at before the overlay
-        $win.scrollTop(offsetY);
-        // Hide popup
-        $holder2.toggleClass('open');
-        $('#close2').fadeToggle(0);
-    });
+    document.onmousemove = trackMouseMovement;
 });
+
+trackMouseMovement = function() {
+    if ($('.left_tease').hasClass('show')) {
+        removeClass();
+    }
+    else {
+        addClass();
+    }
+}
+
+addClass = function() {
+    if (event.clientX < left_detector1) {
+        $('.left_tease').addClass('show');
+    }
+
+    else {
+        return;
+    }
+}
+
+removeClass = function() {
+    if ((event.clientX) < left_detector2) {
+        $('.left').addClass('show');
+    }
+    else if (event.clientX >= left_detector1) {
+        $('.left_tease').removeClass('show');
+        $('.left').removeClass('show');
+    }
+    else {
+        return;
+    }
+}
