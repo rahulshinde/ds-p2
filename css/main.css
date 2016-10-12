@@ -185,3 +185,43 @@ table {
 	right: 0;
 }
 
+.bottom_tease,
+.bottom {
+	position: fixed;
+	left: 0;
+	right: 0;
+}
+
+.bottom_tease {
+	background: blue;
+	height: 2%;
+	box-shadow: 0 0 80px blue;
+  bottom: -20%;
+
+  transition: bottom 0.7s;
+  -webkit-transition: bottom 0.7s;
+}
+
+.bottom_tease.show {
+	bottom: -2%;
+}
+
+.bottom {
+	height: 40%;
+	bottom: -40%;
+
+	transition: bottom 0.7s;
+  -webkit-transition: bottom 0.7s;
+
+	background: -webkit-linear-gradient(rgba(255,255,255,0), blue); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(rgba(255,255,255,0), blue); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(rgba(255,255,255,0), blue); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(rgba(255,255,255,0), blue); /* Standard syntax */
+}
+
+.bottom.show {
+	bottom: 0;
+}
+
+
+
