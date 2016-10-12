@@ -1,6 +1,6 @@
 var w = window.innerWidth,
     left_detector1 = w * 0.4;
-    left_detector2 = w * 0.2;
+    left_detector2 = w * 0.1;
 
 $(document).ready(function () {
     document.onmousemove = trackMouseMovement;
