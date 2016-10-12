@@ -112,25 +112,15 @@ table {
 
 
 
-/* Left */
+/* Hot-Corners */
 
-.left_detector1,
-.left_detector2,
 .left_tease,
-.left {
+.left,
+.right_tease,
+.right {
 	position: fixed;
 	top: 0;
 	bottom: 0;
-}
-
-.left_detector1 {
-	/*background-color: blue;*/
-	width: 40%;
-}
-
-.left_detector2 {
-	/*background-color: red;*/
-	width: 20%;
 }
 
 .left_tease {
@@ -162,5 +152,36 @@ table {
 
 .left.show {
 	left: 0;
+}
+
+.right_tease {
+	background: blue;
+	width: 2%;
+	box-shadow: 0 0 80px blue;
+  right: -20%;
+
+  transition: right 0.7s;
+  -webkit-transition: right 0.7s;
+}
+
+.right_tease.show {
+	right: -2%;
+}
+
+.right {
+	width: 40%;
+	right: -40%;
+
+	transition: right 0.7s;
+  -webkit-transition: right 0.7s;
+
+	background: -webkit-linear-gradient(right, blue, rgba(255,255,255,0)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, blue, rgba(255,255,255,0)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, blue, rgba(255,255,255,0)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(right, blue, rgba(255,255,255,0)); /* Standard syntax */ 
+}
+
+.right.show {
+	right: 0;
 }
 
