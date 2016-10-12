@@ -1,11 +1,11 @@
 var w = window.innerWidth,
     h = window.innerHeight,
-    left_detector1 = w * 0.4,
-    left_detector2 = w * 0.1,
-    right_detector1 = w * 0.6,
-    right_detector2 = w * 0.9,
-    bottom_detector1 = h * 0.6,
-    bottom_detector2 = h * 0.9;
+    // left_detector1 = w * 0.45,
+    // left_detector2 = w * 0.15,
+    right_detector1 = w * 0.65,
+    right_detector2 = w * 0.85,
+    bottom_detector1 = h * 0.65,
+    bottom_detector2 = h * 0.85;
 
 $(document).ready(function () {
     document.onmousemove = trackMouseMovement;
@@ -14,12 +14,12 @@ $(document).ready(function () {
 trackMouseMovement = function() {
     console.log(event.clientY);
 
-    if ($('.left_tease').hasClass('show')) {
-        removeClassL();
-    }
-    else {
-        addClassL();
-    }
+    // if ($('.left_tease').hasClass('show')) {
+    //     removeClassL();
+    // }
+    // else {
+    //     addClassL();
+    // }
 
     if ($('.right_tease').hasClass('show')) {
         removeClassR();
