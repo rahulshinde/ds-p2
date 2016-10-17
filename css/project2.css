@@ -1,0 +1,75 @@
+.project2 {
+  position: absolute;
+  top: 100%;
+  bottom: 0;
+  width: 100%;
+  overflow-y: scroll;
+  background: white;
+  z-index: 100;
+  
+  -webkit-transtion: top 0.7s;
+  transition: top 0.7s;
+
+  background: rgba(0, 170, 60, 1); /* Standard syntax */
+}
+
+.project2.open {
+  top:0;
+}
+
+.test {
+  height: 1000px;
+}
+
+#close2 {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  display: none;
+  font-family: 'Inconsolata', monospace;
+  color: white;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+
+#close2:hover {
+  color: yellow;
+  cursor: pointer;
+}
+
+.project2 h1 {
+  font-family: 'Proza Libre', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 20px;
+  letter-spacing: 15px;
+  line-height: 40px;
+  margin-top: 120px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.project2 h2 {
+  font-family: 'Inconsolata', monospace;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: white;
+  margin-bottom: 90px;
+}
+
+.project2 h3 {
+  font-family: 'Inconsolata', monospace;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: white;
+  margin-bottom: 50px;
+}
+
+.project2 img {
+  width: 70%;
+  margin-left: 15%;
+  margin-bottom: 10px;
+}

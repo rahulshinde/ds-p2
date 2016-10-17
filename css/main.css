@@ -305,7 +305,7 @@ body {
 }
 
 .bottom_tease {
-	background: blue;
+	/*background: blue;*/
 	height: 5%;
 	background: -webkit-linear-gradient(rgba(255,255,255,0), rgba(0, 153, 50, 0.5)); /* For Safari 5.1 to 6.0 */
   background: -o-linear-gradient(rgba(255,255,255,0), rgba(0, 153, 50, 0.5)); /* For Opera 11.1 to 12.0 */

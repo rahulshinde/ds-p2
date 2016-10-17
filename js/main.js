@@ -9,7 +9,20 @@ var w = window.innerWidth,
 
 $(document).ready(function () {
     document.onmousemove = trackMouseMovement;
+    $('#link2').on('click', toggleLink2);
+    $('#close2').on('click', toggleLink2);
 });
+
+// Links
+
+toggleLink2 = function() {
+    $('#close2').toggle();
+    $('.project2').toggleClass('open');
+    $('.project2').scrollTop(0);
+}
+
+
+// Hot Corners 
 
 trackMouseMovement = function() {
     console.log(event.clientY);
