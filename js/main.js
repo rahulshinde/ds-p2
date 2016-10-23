@@ -2,18 +2,26 @@ var w = window.innerWidth,
     h = window.innerHeight,
     // left_detector1 = w * 0.45,
     // left_detector2 = w * 0.15,
-    right_detector1 = w * 0.65,
+    right_detector1 = w - 500,
     right_detector2 = w * 0.85,
     bottom_detector1 = h * 0.65,
     bottom_detector2 = h * 0.85;
 
 $(document).ready(function () {
     document.onmousemove = trackMouseMovement;
+    $('#link1').on('click', toggleLink1);
+    $('#close1').on('click', toggleLink1);
     $('#link2').on('click', toggleLink2);
     $('#close2').on('click', toggleLink2);
 });
 
 // Links
+
+toggleLink1 = function() {
+    $('#close1').toggle();
+    $('.project1').toggleClass('open');
+    $('.project1').scrollTop(0);
+}
 
 toggleLink2 = function() {
     $('#close2').toggle();
@@ -25,7 +33,6 @@ toggleLink2 = function() {
 // Hot Corners 
 
 trackMouseMovement = function() {
-    console.log(event.clientY);
 
     // if ($('.left_tease').hasClass('show')) {
     //     removeClassL();

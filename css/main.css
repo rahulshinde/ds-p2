@@ -123,10 +123,11 @@ body {
 	padding-bottom: 80px
 }
 
-.projects h1 {
+.projects h1,
+.projects h1 a {
   margin-bottom: 70px;
   font-family: 'Proza Libre', sans-serif;
-  font-size: 120px;
+  font-size: 90px;
   font-weight: 700;
   text-transform: uppercase;
   text-align: center;
@@ -143,23 +144,24 @@ body {
 }
 
 .projects a:hover {
-	color: yellow;
+  color: yellow;
+  cursor: pointer;
 }
 
 /* About */
 
 .about {
 	width: 100%;
-	padding-left: 140px;
+	padding-left: 200px;
 	padding-right: 20px;
 }
 
 .about h1 {
 	position: absolute;
-	top: 10%;
+	top: 4%;
 	bottom: 10%;
   font-family: 'Proza Libre', sans-serif;
-  font-size: 120px;
+  font-size: 90px;
   font-weight: 700;
   text-transform: uppercase;
   text-align: center;
@@ -172,7 +174,7 @@ body {
 .links {
 	position: absolute;
 	top: 80%;
-	left: 300px;
+	left: 250px;
 	color: black;
 }
 
@@ -191,7 +193,7 @@ body {
 
 .english {
 	position: absolute;
-	left: 298px;
+	left: 248px;
 	top:40px;
 	width: 450px;
 	font-family: 'Inconsolata', monospace;
@@ -204,7 +206,7 @@ body {
 
 .spanish {
 	position: absolute;
-	left: 800px;
+	left: 750px;
 	top:40px;
 	padding-right: 20px;
 	width: 450px;

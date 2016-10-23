@@ -1,3 +1,4 @@
+.project1,
 .project2 {
   position: absolute;
   top: 100%;
@@ -13,6 +14,7 @@
   background: rgba(0, 170, 60, 1); /* Standard syntax */
 }
 
+.project1.open,
 .project2.open {
   top:0;
 }
@@ -21,6 +23,7 @@
   height: 1000px;
 }
 
+#close1,
 #close2 {
   position: fixed;
   top: 10px;
@@ -33,11 +36,13 @@
   letter-spacing: 2px;
 }
 
+#close1:hover,
 #close2:hover {
   color: yellow;
   cursor: pointer;
 }
 
+.project1 h1, 
 .project2 h1 {
   font-family: 'Proza Libre', sans-serif;
   text-transform: uppercase;
@@ -50,6 +55,7 @@
   color: white;
 }
 
+.project1 h2,
 .project2 h2 {
   font-family: 'Inconsolata', monospace;
   font-size: 14px;
@@ -59,6 +65,7 @@
   margin-bottom: 90px;
 }
 
+.project1 h3,
 .project2 h3 {
   font-family: 'Inconsolata', monospace;
   font-size: 14px;
@@ -68,6 +75,7 @@
   margin-bottom: 50px;
 }
 
+.project1 img,
 .project2 img {
   width: 70%;
   margin-left: 15%;
