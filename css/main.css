@@ -156,7 +156,7 @@ body {
 	padding-right: 20px;
 }
 
-.about h1 {
+.about_title {
 	position: absolute;
 	top: 4%;
 	bottom: 10%;
@@ -189,19 +189,24 @@ body {
 
 .links a:hover {
   color: yellow;
+  cursor: pointer;
+}
+
+.english,
+.spanish {
+  width: 430px;
+  font-family: 'Inconsolata', monospace;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: left;
+  text-decoration: none;
+  color: black;
 }
 
 .english {
 	position: absolute;
 	left: 248px;
 	top:40px;
-	width: 450px;
-	font-family: 'Inconsolata', monospace;
-  font-size: 16px;
-  line-height: 18px;
-  text-align: left;
-  text-decoration: none;
-  color: black;
 }
 
 .spanish {
@@ -209,59 +214,16 @@ body {
 	left: 750px;
 	top:40px;
 	padding-right: 20px;
-	width: 450px;
-	font-family: 'Inconsolata', monospace;
-  font-size: 16px;
-  line-height: 18px;
-  text-align: left;
-  text-decoration: none;
-  color: black;
+	
 }
-
-
-
-
 
 /* Hot-Corners */
 
-.left_tease,
-.left,
 .right_tease,
 .right {
 	position: fixed;
 	top: 0;
 	bottom: 0;
-}
-
-.left_tease {
-	background: blue;
-	width: 2%;
-	box-shadow: 0 0 80px blue;
-  left: -20%;
-
-  transition: left 0.5s;
-  -webkit-transition: left 0.5s;
-}
-
-.left_tease.show {
-	left: -2%;
-}
-
-.left {
-	width: 40%;
-	left: -40%;
-
-	transition: left 0.5s;
-  -webkit-transition: left 0.5s;
-
-	background: -webkit-linear-gradient(left, blue, rgba(255,255,255,0)); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(left, blue, rgba(255,255,255,0)); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(left, blue, rgba(255,255,255,0)); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(left, blue, rgba(255,255,255,0)); /* Standard syntax */ 
-}
-
-.left.show {
-	left: 0;
 }
 
 .right_tease {
@@ -309,10 +271,10 @@ body {
 .bottom_tease {
 	/*background: blue;*/
 	height: 5%;
-	background: -webkit-linear-gradient(rgba(255,255,255,0), rgba(0, 153, 50, 0.5)); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(rgba(255,255,255,0), rgba(0, 153, 50, 0.5)); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(rgba(255,255,255,0), rgba(0, 153, 50, 0.5)); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(rgba(255,255,255,0), rgba(0, 153, 50, 0.5)); /* Standard syntax */
+	background: -webkit-linear-gradient(rgba(255,255,255,0), rgba(0, 100, 40, 1)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(rgba(255,255,255,0), rgba(0, 100, 40, 1)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(rgba(255,255,255,0), rgba(0, 100, 40, 1)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(rgba(255,255,255,0), rgba(0, 100, 40, 1)); /* Standard syntax */
   bottom: -5%;
 
   transition: bottom 0.5s;
@@ -331,10 +293,10 @@ body {
 	transition: bottom 0.5s;
   -webkit-transition: bottom 0.5s;
 
-	background: -webkit-linear-gradient(rgba(255,255,255,0), rgb(0, 153, 50)); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(rgba(255,255,255,0), rgb(0, 153, 50)); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(rgba(255,255,255,0), rgb(0, 153, 50)); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(rgba(255,255,255,0), rgb(0, 153, 50)); /* Standard syntax */
+	background: -webkit-linear-gradient(rgba(255,255,255,0), rgba(0, 100, 40, 1)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(rgba(255,255,255,0), rgba(0, 100, 40, 1)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(rgba(255,255,255,0), rgba(0, 100, 40, 1)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(rgba(255,255,255,0), rgba(0, 100, 40, 1)); /* Standard syntax */
 }
 
 .bottom.show {

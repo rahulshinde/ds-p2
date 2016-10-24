@@ -5,18 +5,27 @@ var w = window.innerWidth,
     right_detector1 = w - 500,
     right_detector2 = w * 0.85,
     bottom_detector1 = h * 0.65,
-    bottom_detector2 = h * 0.85;
+    bottom_detector2 = h * 0.9;
 
 $(document).ready(function () {
     document.onmousemove = trackMouseMovement;
     window.addEventListener("resize", documentResize);
+    $('#resume').on('click', toggleResume);
+    $('#close').on('click', toggleResume);
+
     $('#link1').on('click', toggleLink1);
     $('#close1').on('click', toggleLink1);
+    
     $('#link2').on('click', toggleLink2);
     $('#close2').on('click', toggleLink2);
 });
 
 // Links
+
+toggleResume = function() {
+    $('#close').toggle();
+    $('.resume').toggleClass('open');
+}
 
 toggleLink1 = function() {
     $('#close1').toggle();
@@ -40,7 +49,7 @@ documentResize = function() {
     right_detector1 = w - 500,
     right_detector2 = w * 0.85,
     bottom_detector1 = h * 0.65,
-    bottom_detector2 = h * 0.85;
+    bottom_detector2 = h * 0.9;
 }
 
 trackMouseMovement = function() {
