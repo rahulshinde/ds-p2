@@ -15,7 +15,7 @@ $(document).ready(function () {
 
     $('#link1').on('click', toggleLink1);
     $('#close1').on('click', toggleLink1);
-    
+
     $('#link2').on('click', toggleLink2);
     $('#close2').on('click', toggleLink2);
 });
@@ -30,13 +30,11 @@ toggleResume = function() {
 toggleLink1 = function() {
     $('#close1').toggle();
     $('.project1').toggleClass('open');
-    $('.project1').scrollTop(0);
 }
 
 toggleLink2 = function() {
     $('#close2').toggle();
     $('.project2').toggleClass('open');
-    $('.project2').scrollTop(0);
 }
 
 // Hot Corners 
