@@ -9,6 +9,7 @@ var w = window.innerWidth,
 
 $(document).ready(function () {
     document.onmousemove = trackMouseMovement;
+    window.addEventListener("resize", documentResize);
     $('#link1').on('click', toggleLink1);
     $('#close1').on('click', toggleLink1);
     $('#link2').on('click', toggleLink2);
@@ -29,8 +30,18 @@ toggleLink2 = function() {
     $('.project2').scrollTop(0);
 }
 
-
 // Hot Corners 
+
+documentResize = function() {
+    w = window.innerWidth,
+    h = window.innerHeight,
+    // left_detector1 = w * 0.45,
+    // left_detector2 = w * 0.15,
+    right_detector1 = w - 500,
+    right_detector2 = w * 0.85,
+    bottom_detector1 = h * 0.65,
+    bottom_detector2 = h * 0.85;
+}
 
 trackMouseMovement = function() {
 
