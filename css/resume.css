@@ -1,3 +1,8 @@
+body {
+  margin: 0;
+
+}
+
 .resume {
   position: fixed;
   top: 0;
@@ -6,8 +11,8 @@
   bottom: 0;
   padding-bottom: 80px;
   overflow-y: scroll;
-  background-color: rgb(13, 0, 181);
   z-index: 10;
+  background-color: rgb(13, 0, 181);
 
   -webkit-transtion: left 0.7s;
   transition: left 0.7s;
@@ -104,4 +109,64 @@
 
 .exhibition_name {
   padding-left: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .resume {
+    position: static;
+    padding-bottom: 80px;
+    overflow-y: scroll;
+    background-color: rgb(13, 0, 181);
+    z-index: 10;
+
+    -webkit-transtion: left 0.7s;
+    transition: left 0.7s;
+  }
+
+  .resume h2 {
+    margin-top: 30px;
+  }
+
+  .resume h2,
+  .resume h3 {
+    text-align: justify;
+    font-family: 'Inconsolata', monospace;
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 10px;
+    color: white;
+  }
+
+  .resume p {
+    font-family: 'Proza Libre', sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    font-style: italic;
+    color: white;
+  }
+
+  .tab1 a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .tab1 a:hover {
+    color: yellow;
+    cursor: pointer;
+  }
+
+  .tab1 {
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 30px;
+  }
+
+  .tab2 {
+    margin-bottom: 10px;
+    padding-left: 40px;
+  }
+
+  .exhibition_name {
+    padding-left: 20px;
+  }
 }
