@@ -306,6 +306,15 @@ body {
     font-size: 70px;
   }
 
+  .projects {
+    padding-top: 100px;
+    padding-bottom: 80px
+  }
+
+  .projects h1 {
+    margin-bottom: 50px;
+  }
+
   .about {
     width: 100%;
     padding-left: 280px;
