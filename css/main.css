@@ -369,6 +369,10 @@ body {
     margin-bottom: 20px;
   }
 
+  #mobile_click1:hover {
+    cursor: pointer;
+  }
+
   /* Header */
 
   .header {
@@ -388,6 +392,80 @@ body {
     font-size: 12px;
     line-height: 20px;
   }
+
+  /* About */
+  .right {
+    width: 100%;
+    height: 100%;
+    right: -100%;
+    
+    overflow-y:scroll;
+    overflow-x:hidden;
+
+    transition: right 0.5s;
+    -webkit-transition: right 0.5s;
+
+    background: -webkit-linear-gradient(right, rgb(13, 0, 181), rgb(13, 0, 181)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, rgb(13, 0, 181), rgb(13, 0, 181)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, rgb(13, 0, 181), rgb(13, 0, 181)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(right, rgb(13, 0, 181), rgb(13, 0, 181)); /* Standard syntax */ 
+    z-index: 2000;
+  }
+
+  .right.show_mobile {
+    right: 0;
+  }
+
+  /* About */
+
+  .about {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .about_title {
+    position: static;
+    margin-top: 40px;
+    margin-left: 80px;
+    -webkit-transform: none; /* Safari */
+    transform: none;
+    text-align: left;
+    color: white;
+  }
+
+  .links {
+    position: static;
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-left: 80px;
+  }
+
+  .links a {
+    font-family: 'Proza Libre', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+  }
+
+  .links a:hover {
+    color: yellow;
+    cursor: pointer;
+  }
+
+  .english,
+  .spanish {
+    position: static;
+    width: 100%;
+    padding: 10px 10px 10px 80px;
+    color: white;
+    box-sizing: border-box;
+  }
+
+
 }
 
 
