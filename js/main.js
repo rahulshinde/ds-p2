@@ -10,6 +10,10 @@ var w = window.innerWidth,
 
 $(document).ready(function () {
     document.onmousemove = trackMouseMovement;
+    if (window.innerWidth < 768) {
+        $('.web').remove();
+    }
+
     window.addEventListener("resize", documentResize);
     $('#resume').on('click', toggleResume);
     $('#close').on('click', toggleResume);
