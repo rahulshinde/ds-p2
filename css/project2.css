@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+}
+
 .project1,
 .project2 {
   position: absolute;
@@ -38,10 +42,6 @@
 .project1.open,
 .project2.open {
   top:0;
-}
-
-.test {
-  height: 1000px;
 }
 
 #close1.visible,
@@ -112,4 +112,24 @@
   margin-left: auto;
   margin-right: auto; 
   margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .project1,
+  .project2 {
+    position: static;
+    width: 100%;
+    overflow-y: auto;
+
+    
+  }
+
+  .project1 h1, 
+  .project2 h1 {
+    font-size: 14px;
+    letter-spacing: 8px;
+    line-height: 40px;
+    margin-top: 120px;
+    margin-bottom: 20px;
+  }
 }
