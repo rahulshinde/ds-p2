@@ -115,6 +115,17 @@ body {
 	color: black;
 }
 
+/* Hot Corners */
+
+.section_title {
+  font-family: 'Proza Libre', sans-serif;
+  font-size: 90px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  color: black;
+}
+
 
 /* Project */
 
@@ -126,12 +137,6 @@ body {
 .projects h1,
 .projects h1 a {
   margin-bottom: 70px;
-  font-family: 'Proza Libre', sans-serif;
-  font-size: 90px;
-  font-weight: 700;
-  text-transform: uppercase;
-  text-align: center;
-  color: black;
 }
 
 .projects a,
@@ -160,15 +165,8 @@ body {
 	position: absolute;
 	top: 4%;
 	bottom: 10%;
-  font-family: 'Proza Libre', sans-serif;
-  font-size: 90px;
-  font-weight: 700;
-  text-transform: uppercase;
-  text-align: center;
   -webkit-transform: rotate(-90deg); /* Safari */
   transform: rotate(-90deg);
-
-  color: black;
 }
 
 .links {
@@ -303,5 +301,24 @@ body {
 	bottom: 0;
 }
 
+@media screen and (max-width: 1000px) {
+  .section_title {
+    font-size: 70px;
+  }
+
+  .about {
+    width: 100%;
+    padding-left: 280px;
+    padding-right: 20px;
+  }
+
+  .about_title {
+    position: absolute;
+    top: 4%;
+    bottom: 10%;
+    -webkit-transform: rotate(-90deg); /* Safari */
+    transform: rotate(-90deg);
+  }
+}
 
 

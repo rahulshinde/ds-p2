@@ -24,16 +24,25 @@ $(document).ready(function () {
 
 toggleResume = function() {
     $('#close').toggle();
+    setTimeout(function() {
+        $('#close').toggleClass('visible');
+    }, 750);
     $('.resume').toggleClass('open');
 }
 
 toggleLink1 = function() {
     $('#close1').toggle();
+    setTimeout(function() {
+        $('#close1').toggleClass('visible');
+    }, 750);
     $('.project1').toggleClass('open');
 }
 
 toggleLink2 = function() {
     $('#close2').toggle();
+    setTimeout(function() {
+        $('#close2').toggleClass('visible');
+    }, 750);
     $('.project2').toggleClass('open');
 }
 
