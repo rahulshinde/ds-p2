@@ -69,19 +69,24 @@ trackMouseMovement = function() {
     // else {
     //     addClassL();
     // }
+    if (window.innerWidth < 768){
+        $('.right_tease').removeClass('show');
+        $('.right').removeClass('show');
+        return
+    }else {
+        if ($('.right_tease').hasClass('show')) {
+            removeClassR();
+        }
+        else {
+            addClassR();
+        }
 
-    if ($('.right_tease').hasClass('show')) {
-        removeClassR();
-    }
-    else {
-        addClassR();
-    }
-
-    if ($('.bottom_tease').hasClass('show')) {
-        removeClassB();
-    }
-    else {
-        addClassB();
+        if ($('.bottom_tease').hasClass('show')) {
+            removeClassB();
+        }
+        else {
+            addClassB();
+        }
     }
 
 }
