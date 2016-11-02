@@ -115,6 +115,10 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+  .web {
+    display: none;
+  }
+
   .project1,
   .project2 {
     position: static;
