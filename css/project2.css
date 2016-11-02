@@ -140,7 +140,9 @@ body {
     line-height: 20px;
     text-align: center;
     /*color: white;*/
-    margin-bottom: 90px;
+    padding-bottom: 90px;
+
+    border-bottom: 1px solid;
   }
 
   .project1 h3,
