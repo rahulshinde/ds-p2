@@ -17,9 +17,6 @@ $(document).ready(function () {
     $('#link1').on('click', toggleLink1);
     $('#close1').on('click', toggleLink1);
 
-    $('#mobile_click1').on('click', toggleMobileLink1);
-    // $('#close1').on('click', toggleLink1);
-
     $('#link2').on('click', toggleLink2);
     $('#close2').on('click', toggleLink2);
 });
@@ -48,15 +45,6 @@ toggleLink2 = function() {
         $('#close2').toggleClass('visible');
     }, 750);
     $('.project2').toggleClass('open');
-}
-
-toggleMobileLink1 = function() {
-    // $('#close1').toggle();
-    // setTimeout(function() {
-    //     $('#close1').toggleClass('visible');
-    // }, 750);
-    console.log('hello');
-    $('.right').toggleClass('show_mobile');
 }
 
 // Hot Corners 
