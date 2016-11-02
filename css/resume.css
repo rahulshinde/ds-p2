@@ -123,36 +123,30 @@ body {
     transition: left 0.7s;
   }
 
+  .resume h1 {
+    font-size: 18px;
+    letter-spacing: 15px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+  }
+
+
   .resume h2 {
     margin-top: 30px;
   }
 
   .resume h2,
   .resume h3 {
-    text-align: justify;
-    font-family: 'Inconsolata', monospace;
     font-size: 18px;
     line-height: 22px;
     margin-bottom: 10px;
-    color: white;
   }
 
   .resume p {
-    font-family: 'Proza Libre', sans-serif;
     font-size: 14px;
     line-height: 18px;
     font-style: italic;
     color: white;
-  }
-
-  .tab1 a {
-    color: white;
-    text-decoration: none;
-  }
-
-  .tab1 a:hover {
-    color: yellow;
-    cursor: pointer;
   }
 
   .tab1 {
@@ -164,9 +158,5 @@ body {
   .tab2 {
     margin-bottom: 10px;
     padding-left: 40px;
-  }
-
-  .exhibition_name {
-    padding-left: 20px;
   }
 }
