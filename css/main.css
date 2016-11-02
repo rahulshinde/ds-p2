@@ -417,6 +417,10 @@ body {
     right: 0;
   }
 
+  .section_title {
+    font-size: 50px;
+  }
+
   /* About */
 
   .about {
