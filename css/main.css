@@ -383,6 +383,7 @@ body {
     position: fixed;
     width: 100%;
     text-align: center;
+    top: 20vh;
   }
 
   .header h1 {
@@ -494,7 +495,7 @@ body {
     display: block;
     width: 200px;
     position: fixed;
-    bottom: 10vh;
+    bottom: 10px;
     left: 10px;
     box-shadow: 10px 10px 50px rgba(0,0,0,0.8);
 
