@@ -1,1 +1,535 @@
-.gif,.gif2,.header,.old-photo{position:fixed}.header h1,.section_title{text-transform:uppercase;color:#000}a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline;color:#000}.about,.spanish{padding-right:20px}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1;background-color:#fff}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}.mobile-nav{display:none}.old-photo{width:250px;bottom:110px;left:30%;box-shadow:10px 10px 50px rgba(0,0,0,.8)}.gif{width:60px;top:50px;left:10%}.gif2{width:300px;top:150px;right:10%}.header{top:30vh;width:100%;text-align:center}.header h1{font-family:'Proza Libre',sans-serif;font-size:20px;letter-spacing:40px;margin-bottom:20px}.header h2{font-family:Inconsolata,monospace;font-size:14px;line-height:20px;color:#000}.section_title{font-family:'Proza Libre',sans-serif;font-size:90px;font-weight:700;text-align:center}.projects{padding-top:80px;padding-bottom:80px}.projects h1,.projects h1 a{margin-bottom:70px}.projects a,.projects h2{font-family:Inconsolata,monospace;font-size:23px;text-align:center;text-decoration:none;color:#000}.projects a:hover{color:#ff0;cursor:pointer}.about{width:100%;padding-left:200px}.about_title{position:absolute;top:4%;bottom:10%;-webkit-transform:rotate(-90deg);transform:rotate(-90deg)}.links{position:absolute;top:80%;left:250px;color:#000}.english,.spanish{position:absolute;top:40px}.links a{font-family:'Proza Libre',sans-serif;font-size:20px;line-height:30px;font-weight:400;text-decoration:none;color:#000}.links a:hover{color:#ff0;cursor:pointer}.english,.spanish{width:430px;font-family:Inconsolata,monospace;font-size:14px;line-height:17px;text-align:left;text-decoration:none;color:#000}.english{left:248px}.spanish{left:750px}.right,.right_tease{position:fixed;top:0;bottom:0}.right_tease{width:2%;box-shadow:0 0 80px #0d00b5;right:-20%;transition:right .5s;-webkit-transition:right .5s}.right_tease.show{right:-2%}.right{width:500px;height:100%;right:-500px;overflow-y:hidden;overflow-x:scroll;transition:right .5s;-webkit-transition:right .5s;background:-webkit-linear-gradient(right,#0d00b5,rgba(255,255,255,0));background:-o-linear-gradient(right,#0d00b5,rgba(255,255,255,0));background:-moz-linear-gradient(right,#0d00b5,rgba(255,255,255,0));background:linear-gradient(right,#0d00b5,rgba(255,255,255,0));z-index:100}.right.show{right:0}.bottom,.bottom_tease{position:fixed;left:0;right:0}.bottom_tease{height:5%;background:-webkit-linear-gradient(rgba(255,255,255,0),rgba(0,100,40,1));background:-o-linear-gradient(rgba(255,255,255,0),rgba(0,100,40,1));background:-moz-linear-gradient(rgba(255,255,255,0),rgba(0,100,40,1));background:linear-gradient(rgba(255,255,255,0),rgba(0,100,40,1));bottom:-5%;transition:bottom .5s;-webkit-transition:bottom .5s}.bottom_tease.show{bottom:0}.bottom{height:40%;bottom:-40%;overflow-y:scroll;transition:bottom .5s;-webkit-transition:bottom .5s;background:-webkit-linear-gradient(rgba(255,255,255,0),rgba(0,100,40,1));background:-o-linear-gradient(rgba(255,255,255,0),rgba(0,100,40,1));background:-moz-linear-gradient(rgba(255,255,255,0),rgba(0,100,40,1));background:linear-gradient(rgba(255,255,255,0),rgba(0,100,40,1))}.bottom.show{bottom:0}@media screen and (max-width:1000px){.section_title{font-size:70px}.projects{padding-top:100px;padding-bottom:80px}.projects h1{margin-bottom:50px}.about{width:100%;padding-left:280px;padding-right:20px}.about_title{position:absolute;top:4%;bottom:10%;-webkit-transform:rotate(-90deg);transform:rotate(-90deg)}}@media screen and (max-width:768px){.about_title,.links{color:#fff;position:static}#mobile_click1:hover,.links a:hover{cursor:pointer}.gif,.gif2,.web{display:none}.mobile-nav,.old-photo{display:block;position:fixed}.old-photo{width:200px;bottom:110px;left:100px;box-shadow:10px 10px 50px rgba(0,0,0,.8)}.mobile-nav{top:20px;right:20px;width:80px;z-index:1000}.mobile-nav img{margin-bottom:20px}.header{position:fixed;width:100%;text-align:center;top:20vh}.header h1{font-size:16px;letter-spacing:20px;line-height:30px;margin-bottom:10px}.header h2{font-size:12px;line-height:20px}.section_title{font-size:50px}.about{width:100%;background-color:#0d00b5;padding-left:0;padding-right:0}.about_title{padding-top:40px;-webkit-transform:none;transform:none}.links{margin-top:40px;margin-bottom:40px;padding-left:20px}.links a{font-family:'Proza Libre',sans-serif;font-size:20px;line-height:30px;font-weight:400;text-decoration:none;color:#fff}.links a:hover{color:#ff0}.english,.spanish{position:static;width:100%;padding:10px 20px 20px;color:#fff;box-sizing:border-box}.spanish{padding-bottom:80px}.projects{padding-top:0;padding-bottom:0;height:100vh;background-color:rgba(0,100,40,1)}.projects h1,.projects h1 a{padding-top:40px;margin-bottom:70px;color:#fff}.projects a,.projects h2{font-family:Inconsolata,monospace;font-size:18px;line-height:25px;text-align:center;text-decoration:none;color:#fff}.projects a:hover{color:#fff;cursor:pointer}}@media screen and (max-width:399px){.old-photo{display:block;width:200px;position:fixed;bottom:10px;left:10px;box-shadow:10px 10px 50px rgba(0,0,0,.8)}.mobile-nav img{margin-bottom:20px}.header{position:fixed;width:100%;text-align:center}.header h1{font-size:14px;letter-spacing:10px;line-height:30px;margin-bottom:10px}.header h2{font-size:9px;line-height:20px}}
+/* 	================= 
+		MAIN.CSS
+	================= */
+
+
+/* !!! CSS RESET !!! */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	color: black;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* 	==============================================
+		BEGIN AUTHOR STYLING
+	============================================== */
+
+body {
+	background-color: white;
+}
+
+.mobile-nav {
+    display: none;
+  }
+
+/* IMG */
+
+.old-photo {
+  width: 250px;
+  position: fixed;
+  bottom: 110px;
+  left: 30%;
+  box-shadow: 10px 10px 50px rgba(0,0,0,0.8);
+
+}
+
+.gif {
+  width: 60px;
+  position: fixed;
+  top: 50px;
+  left: 10%;
+
+}
+
+.gif2 {
+  width: 300px;
+  position: fixed;
+  top: 150px;
+  right: 10%;
+
+}
+
+/* Header */
+
+.header {
+	position: fixed;
+	top: 30vh;
+	width: 100%;
+	text-align: center;
+}
+
+.header h1 {
+	font-family: 'Proza Libre', sans-serif;
+	text-transform: uppercase;
+	font-size: 20px;
+	letter-spacing: 40px;
+	margin-bottom: 20px;
+	color: black;
+}
+
+.header h2 {
+	font-family: 'Inconsolata', monospace;
+	font-size: 14px;
+	line-height: 20px;
+	color: black;
+}
+
+/* Hot Corners */
+
+.section_title {
+  font-family: 'Proza Libre', sans-serif;
+  font-size: 90px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  color: black;
+}
+
+
+/* Project */
+
+.projects {
+	padding-top: 80px;
+	padding-bottom: 80px
+}
+
+.projects h1,
+.projects h1 a {
+  margin-bottom: 70px;
+}
+
+.projects a,
+.projects h2 {
+  font-family: 'Inconsolata', monospace;
+  font-size: 23px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+.projects a:hover {
+  color: yellow;
+  cursor: pointer;
+}
+
+/* About */
+
+.right_wrap{
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.about {
+	width: 100%;
+	padding-left: 200px;
+	padding-right: 20px;
+}
+
+.about_title {
+	position: absolute;
+	top: 4%;
+	bottom: 10%;
+  -webkit-transform: rotate(-90deg); /* Safari */
+  transform: rotate(-90deg);
+}
+
+.links {
+	position: absolute;
+	top: 80%;
+	left: 250px;
+	color: black;
+}
+
+.links a {
+  font-family: 'Proza Libre', sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  text-decoration: none;
+  color: black;
+}
+
+.links a:hover {
+  color: yellow;
+  cursor: pointer;
+}
+
+.english,
+.spanish {
+  width: 430px;
+  font-family: 'Inconsolata', monospace;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: left;
+  text-decoration: none;
+  color: black;
+}
+
+.english {
+	position: absolute;
+	left: 248px;
+	top:40px;
+}
+
+.spanish {
+	position: absolute;
+	left: 750px;
+	top:40px;
+	padding-right: 20px;
+	
+}
+
+/* Hot-Corners */
+
+.right_tease,
+.right {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+}
+
+.right_tease {
+	width: 2%;
+	box-shadow: 0 0 80px rgb(13, 0, 181);
+  right: -20%;
+
+  transition: right 0.5s;
+  -webkit-transition: right 0.5s;
+}
+
+.right_tease.show {
+	right: -2%;
+}
+
+.right {
+	width: 500px;
+	height: 100%;
+	right: -500px;
+	
+	overflow-y:hidden;
+	overflow-x:scroll;
+
+	transition: right 0.5s;
+  -webkit-transition: right 0.5s;
+
+	background: -webkit-linear-gradient(right, rgb(13, 0, 181), rgba(255,255,255,0)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, rgb(13, 0, 181), rgba(255,255,255,0)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, rgb(13, 0, 181), rgba(255,255,255,0)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(right, rgb(13, 0, 181), rgba(255,255,255,0)); /* Standard syntax */ 
+	z-index: 100;
+}
+
+.right.show {
+	right: 0;
+}
+
+.bottom_tease,
+.bottom {
+	position: fixed;
+	left: 0;
+	right: 0;
+}
+
+.bottom_tease {
+	/*background: blue;*/
+	height: 5%;
+	background: -webkit-linear-gradient(rgba(255,255,255,0), rgba(0, 100, 40, 1)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(rgba(255,255,255,0), rgba(0, 100, 40, 1)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(rgba(255,255,255,0), rgba(0, 100, 40, 1)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(rgba(255,255,255,0), rgba(0, 100, 40, 1)); /* Standard syntax */
+  bottom: -5%;
+
+  transition: bottom 0.5s;
+  -webkit-transition: bottom 0.5s;
+}
+
+.bottom_tease.show {
+	bottom: 0;
+}
+
+.bottom {
+	height: 40%;
+	bottom: -40%;
+	overflow-y: scroll;
+
+	transition: bottom 0.5s;
+  -webkit-transition: bottom 0.5s;
+
+	background: -webkit-linear-gradient(rgba(255,255,255,0), rgba(0, 100, 40, 1)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(rgba(255,255,255,0), rgba(0, 100, 40, 1)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(rgba(255,255,255,0), rgba(0, 100, 40, 1)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(rgba(255,255,255,0), rgba(0, 100, 40, 1)); /* Standard syntax */
+}
+
+.bottom.show {
+	bottom: 0;
+}
+
+@media screen and (max-width: 1000px) {
+  .section_title {
+    font-size: 70px;
+  }
+
+  .projects {
+    padding-top: 100px;
+    padding-bottom: 80px
+  }
+
+  .projects h1 {
+    margin-bottom: 50px;
+  }
+
+  .about {
+    width: 100%;
+    padding-left: 280px;
+    padding-right: 20px;
+  }
+
+  .about_title {
+    position: absolute;
+    top: 4%;
+    bottom: 10%;
+    -webkit-transform: rotate(-90deg); /* Safari */
+    transform: rotate(-90deg);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  
+  .web {
+    display: none;
+  }
+
+  .gif {
+    display: none;
+
+  }
+
+  .gif2 {
+    display: none;
+
+  }
+
+  .old-photo {
+    display: block;
+    width: 200px;
+    position: fixed;
+    bottom: 110px;
+    left: 100px;
+    box-shadow: 10px 10px 50px rgba(0,0,0,0.8);
+
+  }
+
+  .mobile-nav {
+    display: block;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 80px;
+    z-index: 1000;
+  }
+
+  .mobile-nav img {
+    margin-bottom: 20px;
+  }
+
+  #mobile_click1:hover {
+    cursor: pointer;
+  }
+
+  /* Header */
+
+  .header {
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    top: 20vh;
+  }
+
+  .header h1 {
+    font-size: 16px;
+    letter-spacing: 20px;
+    line-height: 30px;
+    margin-bottom: 10px;
+  }
+
+  .header h2 {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .section_title {
+    font-size: 50px;
+  }
+
+  /* About */
+
+  .about {
+    width: 100%;
+    background-color: rgb(13, 0, 181);
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .about_title {
+    position: static;
+    padding-top: 40px;
+    -webkit-transform: none; /* Safari */
+    transform: none;
+    color: white;
+  }
+
+  .links {
+    position: static;
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-left: 20px;
+  }
+
+  .links a {
+    font-family: 'Proza Libre', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+  }
+
+  .links a:hover {
+    color: yellow;
+    cursor: pointer;
+  }
+
+  .english,
+  .spanish {
+    position: static;
+    width: 100%;
+    padding: 10px 20px 20px 20px;
+    color: white;
+    box-sizing: border-box;
+  }
+
+  .spanish {
+    padding-bottom: 80px;
+  }
+  
+
+  /* Project */
+
+  .projects {
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 100vh;
+    background-color: rgba(0, 100, 40, 1);
+  }
+
+  .projects h1,
+  .projects h1 a {
+    padding-top: 40px;
+    margin-bottom: 70px;
+    color: white;
+  }
+
+  .projects a,
+  .projects h2 {
+    font-family: 'Inconsolata', monospace;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+  }
+
+  .projects a:hover {
+    color: white;
+    cursor: pointer;
+  }
+
+}
+
+
+@media screen and (max-width: 399px) {
+
+  .old-photo {
+    display: block;
+    width: 200px;
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    box-shadow: 10px 10px 50px rgba(0,0,0,0.8);
+
+  }
+
+  .mobile-nav img {
+    margin-bottom: 20px;
+  }
+
+  /* Header */
+
+  .header {
+    position: fixed;
+    width: 100%;
+    text-align: center;
+  }
+
+  .header h1 {
+    font-size: 14px;
+    letter-spacing: 10px;
+    line-height: 30px;
+    margin-bottom: 10px;
+  }
+
+  .header h2 {
+    font-size: 9px;
+    line-height: 20px;
+  }
+}
+
+
